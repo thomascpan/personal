@@ -1,0 +1,1112 @@
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 6:45:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 6:45:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 6:45:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 727 ms
+Oct 21, 2016 6:45:08 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 6:45:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 269 ms
+Oct 21, 2016 6:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 224 ms
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 64 ms
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 42 ms
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 35 ms
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 28 ms
+Oct 21, 2016 6:45:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 6:45:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 6:45:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 717 ms
+Oct 21, 2016 7:27:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/hello] has started
+Oct 21, 2016 7:27:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/hello] is completed
+Oct 21, 2016 7:32:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:32:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:32:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 7:32:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:32:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:32:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:32:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 7:32:50 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 7:32:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:32:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 514 ms
+Oct 21, 2016 7:32:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 7:32:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 7:32:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 238 ms
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 266 ms
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 59 ms
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 50 ms
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 38 ms
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 32 ms
+Oct 21, 2016 7:32:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:32:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:32:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 738 ms
+Oct 21, 2016 7:33:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/hello] has started
+Oct 21, 2016 7:33:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/hello] is completed
+Oct 21, 2016 7:33:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 7:33:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 7:33:56 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 7:33:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 488 ms
+Oct 21, 2016 7:33:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 7:33:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 236 ms
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 197 ms
+Oct 21, 2016 7:33:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 50 ms
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 43 ms
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 45 ms
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 34 ms
+Oct 21, 2016 7:33:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 661 ms
+Oct 21, 2016 7:33:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 7:33:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:33:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:33:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:34:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 7:34:00 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 7:34:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:34:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 528 ms
+Oct 21, 2016 7:34:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 7:34:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 233 ms
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 203 ms
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 50 ms
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 38 ms
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 41 ms
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 25 ms
+Oct 21, 2016 7:34:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:34:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:34:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 647 ms
+Oct 21, 2016 7:41:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:41:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:41:38 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 7:41:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:41:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:41:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:41:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 7:41:39 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 7:41:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:41:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 505 ms
+Oct 21, 2016 7:41:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 7:41:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 218 ms
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 181 ms
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 46 ms
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 40 ms
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 41 ms
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 25 ms
+Oct 21, 2016 7:41:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:41:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:41:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 602 ms
+Oct 21, 2016 7:42:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:42:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:42:45 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 7:42:45 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:42:45 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:42:45 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:42:45 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 7:42:50 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 7:42:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:42:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 535 ms
+Oct 21, 2016 7:42:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 7:42:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 297 ms
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 220 ms
+Oct 21, 2016 7:42:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 86 ms
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 58 ms
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 52 ms
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 33 ms
+Oct 21, 2016 7:42:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:42:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:42:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 811 ms
+Oct 21, 2016 7:43:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:43:34 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:43:34 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 7:43:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:43:34 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:43:34 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:43:34 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 7:43:38 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 7:43:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:43:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 509 ms
+Oct 21, 2016 7:43:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 7:43:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 7:43:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 234 ms
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 211 ms
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 54 ms
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 49 ms
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 44 ms
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 35 ms
+Oct 21, 2016 7:43:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 7:43:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 7:43:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 676 ms
+Oct 21, 2016 8:06:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:06:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:06:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 8:06:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:06:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:06:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:06:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:06:21 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 8:06:21 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 8:06:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:06:22 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 476 ms
+Oct 21, 2016 8:06:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 8:06:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 220 ms
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 196 ms
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 48 ms
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 41 ms
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 42 ms
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 24 ms
+Oct 21, 2016 8:06:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:06:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:06:22 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 619 ms
+Oct 21, 2016 8:08:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:08:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:08:10 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 8:08:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:08:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:08:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:08:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 8:08:15 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 8:08:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:08:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 497 ms
+Oct 21, 2016 8:08:15 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 8:08:15 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 236 ms
+Oct 21, 2016 8:08:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 237 ms
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 74 ms
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 42 ms
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 38 ms
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 31 ms
+Oct 21, 2016 8:08:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:08:16 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:08:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 716 ms
+Oct 21, 2016 8:21:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:21:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:21:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 8:21:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:21:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:21:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:21:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 8:21:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 8:21:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:21:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 492 ms
+Oct 21, 2016 8:21:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 8:21:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 267 ms
+Oct 21, 2016 8:21:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 198 ms
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 60 ms
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 33 ms
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 41 ms
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 36 ms
+Oct 21, 2016 8:21:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:21:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:21:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 691 ms
+Oct 21, 2016 8:40:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:40:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:40:54 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 8:40:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:40:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:40:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:40:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 8:40:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 8:40:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:40:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 505 ms
+Oct 21, 2016 8:40:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 8:40:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 219 ms
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 193 ms
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 57 ms
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 43 ms
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 39 ms
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 31 ms
+Oct 21, 2016 8:40:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 8:40:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 8:40:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 627 ms
+Oct 21, 2016 9:01:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:01:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:01:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 9:01:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:01:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:01:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:01:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.72
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 14 2016 12:12:26 UTC
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.72.0
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.6
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/thomaspan/personal/java/HelloWorld/tomcat/conf/logging.properties
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/thomaspan/personal/java/HelloWorld/tomcat/endorsed
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/thomaspan/personal/java/HelloWorld/tomcat
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/thomaspan/personal/java/HelloWorld/tomcat/temp
+Oct 21, 2016 9:01:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/thomaspan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Oct 21, 2016 9:01:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:01:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 489 ms
+Oct 21, 2016 9:01:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2016 9:01:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.72
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/docs has finished in 206 ms
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/examples has finished in 198 ms
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/hello has finished in 56 ms
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/host-manager has finished in 40 ms
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/manager has finished in 31 ms
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/thomaspan/personal/java/HelloWorld/tomcat/webapps/ROOT has finished in 28 ms
+Oct 21, 2016 9:01:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:01:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:01:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 606 ms
+Oct 21, 2016 9:12:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:12:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:12:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2016 9:12:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:12:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2016 9:12:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9999"]
+Oct 21, 2016 9:12:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

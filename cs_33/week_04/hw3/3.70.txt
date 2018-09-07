@@ -1,0 +1,25 @@
+A.
+
+e1.p		0
+e1.y		8
+e2.x		0
+e2.next		8
+
+B.
+e1		16
+e2		16
+
+C.
+void proc(union ele *up) {
+	up->e2.x = *(up->e2.next->e1.p) - up->e2.next->e1.y;
+}
+
+void proc (union ele *up)
+up in %rdi
+
+movq 8(%rdi), %rax		%rax = up->y or up->next
+movq (%rax), %rdx		%rdx = up->next->p or up->next->x
+movq (%rdx), %rdx		%rdx = *(up->next->p)
+subq 8(%rax), %rdx		%rdx - up->next->y or up->next->next
+movq %rdx, (%rdi)		(%rdi) = %rdx		up.p or up x
+ret

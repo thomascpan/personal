@@ -1,0 +1,67 @@
+A. 
+address		value		register pointing to it
+rsp			x			
+rsp + 8		y			
+rsp + 16	&z
+rsp + 24	z			%rax
+rsp + 64				%rdi
+rsp + 104
+
+B.
+x, the first value of s. 
+
+C.
+Get's values from eval stack. 
+rsp + 24 is s.p
+rsp + 8 is s.a[0]
+rsp + 16 is s.a[1]
+
+D.
+Elements of r are accessed usign %rdi, which is set to point to beginning of r. The elements of 
+s are copied into r at the correct location by moving the values into addresses at and following %rdi. 
+
+E.
+address		value		register pointing to it
+rsp			x			
+rsp + 8		y			
+rsp + 16	&z
+rsp + 24	z			%rax
+rsp + 64	y			%rdi
+rsp + 72	x
+rsp + 80	z
+rsp + 104
+
+F.
+Structure values are passed as arguments to an inner function by 
+pushing all elements onto the stack at a higher address than the 
+memory used by the outer function so far. The outer function can
+then accessed the elements of the struct instance return value of the
+inner function simply by accessing the portions of the stack onto
+which they were pushed by the inner fuction. 
+
+
+x in %rdi, y in %rsi, z in %rdx
+subq $104, %rsp			allocate $104 bytes
+movq %rdx, 24(%rsp)		(%rsp + 24) = z
+leaq 24(%rsp), %rax		%rax = &(%rsp + 24)				%rax = &z
+movq %rdi, (%rsp) 		(%rsp) = x 						s.a[0] = x
+movq %rsi, 8(%rsp)		(%rsp + 8) = y					s.a[1] = y
+movq %rax, 16(%rsp)		(%rsp + 16) = &z				s.p = &z
+leaq 64(%rsp), %rdi		%rdi = &(%rsp + 64)
+call process
+movq 72(%rsp), %rax		%rax = (%rsp + 72)				%rax = r.u[1]
+addq 64(%rsp), %rax		%rax = (%rax) + (%rax + 64)		%rax = r.u[1] + r.u[0]
+addq 80(%rsp), %rax		%rax = (%rax) + (%rax + 80)		%rax = r.u[1] + r.u[0] + r.q
+addq $104, %rsp
+ret
+
+s in %rdi
+movq %rdi, %rax			%rax = &s 				
+movq 24(%rsp), %rdx		%rdx = (%rsp + 24)		%rdx = z
+movq (%rdx), %rdx		%rdx = (%rdx)			%rdx = z
+movq 16(%rsp), %rcx		%rcx = (%rsp + 16)		%rxc = &z
+movq %rcx, (%rdi)		(%rdi) = %rxc 			r.u[0] = &z		# can't help but feel this is a typo. 
+movq 8(%rsp), %rcx		%rcx = (%rsp + 8)		%rcx = y
+movq %rcx, 8(%rdi)		(%rdi + 8) = %rxc		r.u[1] = y
+movq %rdx, 16(%rdi)		(%rdi + 8) = %rdx		r.q = z
+ret 					s

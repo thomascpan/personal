@@ -1,0 +1,16 @@
+"on", "off" or "auto" expected.
+Starting program: /usr/bin/emacs -Q -batch -eval '(print (* 1250284240 -1844255039))'
+Unable to find Mach task port for process-id 82657: (os/kern) failure (0x5).
+ (please check gdb is codesigned - see taskgated(8))
+Undefined command: "emacs".  Try "help".
+
+This is a bug, please report it.  For instructions, see:
+<http://www.gnu.org/software/gdb/bugs/>.
+
+Starting program: /usr/bin/emacs 
+Unable to find Mach task port for process-id 83882: (os/kern) failure (0x5).
+ (please check gdb is codesigned - see taskgated(8))
+
+This is a bug, please report it.  For instructions, see:
+<http://www.gnu.org/software/gdb/bugs/>.
+

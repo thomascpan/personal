@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/thomaspan/personal/cs_32/chapter_17/notes/ArrayMaxHeap.cpp
+ArrayMaxHeap.h
+/Users/thomaspan/personal/cs_32/chapter_17/notes/ArrayMaxHeap.h
+math.h
+-
+iostream
+-
+
+/Users/thomaspan/personal/cs_32/chapter_17/notes/ArrayMaxHeap.h
+HeapInterface.h
+/Users/thomaspan/personal/cs_32/chapter_17/notes/HeapInterface.h
+PrecondViolatedExcept.h
+/Users/thomaspan/personal/cs_32/chapter_17/notes/PrecondViolatedExcept.h
+ArrayMaxHeap.cpp
+/Users/thomaspan/personal/cs_32/chapter_17/notes/ArrayMaxHeap.cpp
+
+/Users/thomaspan/personal/cs_32/chapter_17/notes/HeapInterface.h
+
+/Users/thomaspan/personal/cs_32/chapter_17/notes/PrecondViolatedExcept.cpp
+PrecondViolatedExcept.h
+/Users/thomaspan/personal/cs_32/chapter_17/notes/PrecondViolatedExcept.h
+
+/Users/thomaspan/personal/cs_32/chapter_17/notes/PrecondViolatedExcept.h
+stdexcept
+-
+string
+-
+
+/Users/thomaspan/personal/cs_32/chapter_17/notes/main.cpp
+iostream
+-
+ArrayMaxHeap.h
+/Users/thomaspan/personal/cs_32/chapter_17/notes/ArrayMaxHeap.h
+

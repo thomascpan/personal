@@ -1,0 +1,44 @@
+A. 
+(x <  y) == (-x > -y);
+YES.
+If the absolute value of x is greater than y, then it will be greater than y when positive, but less than y when negative. And vice versa. 
+
+B.
+YES.
+Shift by k == 2^k
+((x+y) << 4) + y - x == (17 * y) + (15 * x);
+((x+y) * 16) + y - x == (17 * y) + (15 * x);
+16x + 16y + y - x == 17y + 15x;
+17y + 15x = 17y + 15x;
+
+C.
+~x + ~y + 1  = ~(x + y);
+YES.
+-x = ~x + 1 == ~x = -x - 1
+-y = ~y + 1 == ~y = -y - 1
+(-x - 1) + (-y - 1) + 1 = ~(x + y)
+-x - y - 1 = ~(x + y)
+-(x+y) - 1 = ~(x + y)
+
+D.
+(ux - uy) == -(unsigned) (y - x)
+YES.
+Same bitwise representation. IDK. 
+
+E.
+((x >> 2) << 2) <= x
+YES.
+Shift right will always result in the 2 least significant digits becoming 00. The most significant 2 will stay the same.
+This means the result of the shifts will always be less than or equal to before the shift. 
+
+F.
+NO.
+x >> 1 == (ux >> 1) + (ux & (-1 << 31))
+0 = (ux & (-1 << 31)) // -1 is where all bits are 1. Left shift by 31 results in 2^32. 
+0 = (ux & 2^32) // Keep most significant digit only. Zero out the rest. 
+One side will always be 0. The ohter side will only be 0 if x is positive.
+
+G.
+x % 128 == (x & 127)
+NO.
+Results differ when x is a negative number. 

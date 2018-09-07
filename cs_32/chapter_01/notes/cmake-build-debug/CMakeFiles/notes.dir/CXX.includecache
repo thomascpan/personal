@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/thomaspan/personal/cs_32/chapter_01/notes/MagicBox.cpp
+MagicBox.h
+/Users/thomaspan/personal/cs_32/chapter_01/notes/MagicBox.h
+
+/Users/thomaspan/personal/cs_32/chapter_01/notes/MagicBox.h
+PlainBox.h
+/Users/thomaspan/personal/cs_32/chapter_01/notes/PlainBox.h
+MagicBox.cpp
+/Users/thomaspan/personal/cs_32/chapter_01/notes/MagicBox.cpp
+
+/Users/thomaspan/personal/cs_32/chapter_01/notes/PlainBox.cpp
+PlainBox.h
+/Users/thomaspan/personal/cs_32/chapter_01/notes/PlainBox.h
+
+/Users/thomaspan/personal/cs_32/chapter_01/notes/PlainBox.h
+PlainBox.cpp
+/Users/thomaspan/personal/cs_32/chapter_01/notes/PlainBox.cpp
+
+/Users/thomaspan/personal/cs_32/chapter_01/notes/main.cpp
+iostream
+-
+string
+-
+PlainBox.h
+/Users/thomaspan/personal/cs_32/chapter_01/notes/PlainBox.h
+MagicBox.h
+/Users/thomaspan/personal/cs_32/chapter_01/notes/MagicBox.h
+

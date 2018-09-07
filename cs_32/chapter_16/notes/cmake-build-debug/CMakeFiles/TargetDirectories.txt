@@ -1,0 +1,3 @@
+/Users/thomaspan/personal/cs_32/chapter_16/notes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/thomaspan/personal/cs_32/chapter_16/notes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thomaspan/personal/cs_32/chapter_16/notes/cmake-build-debug/CMakeFiles/notes.dir

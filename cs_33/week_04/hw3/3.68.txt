@@ -1,0 +1,44 @@
+A = 9
+B = 5
+
+
+void setV al(str1 *p, str2 *q)
+p in %rdi, q in %rsi
+
+movslq 8(%rsi), %rax	%rax = (%rsi + 8)	%rax = q->t 			1 * B = 8			4 < B <= 8 because of padding.
+addq 32(%rsi), %rax		%rax + (%rsi + 32)	%rax = q->t + q->u		2 * A = 20			8 < A <= 6 because of padding
+movq %rax, 184(%rdi)	
+ret
+
+
+str1
+A * B * 4
+
+0 int x[A][B]	(4)	
+184 long y		(8)
+
+
+
+
+
+str1
+B * 1
+4
+A * 2
+8
+
+0 char array[B] (1)
+4 int t 		(4)
+8 short s[A]	(2)
+32 long u		(8)
+
+
+B + bp = 8
+
+
+2(A + ap) = 20
+A + ap = 10
+
+
+4((B * A) + abp) = 184
+(B * A) + abp = 46

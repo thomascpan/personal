@@ -1,0 +1,10 @@
+2.72
+A.
+maxbytes is a signed integer.
+sizeof returns size_t which is an unsigned integer. 
+signed and unsigned arithmetics results in unsigned which is always positive. 
+
+B.
+Check if maxbytes is positive. 
+Check if maxbytes is greater than sizeof(val).
+if (maxbytes > 0 && maxbytes >= sizeof(val))
