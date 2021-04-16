@@ -276,7 +276,7 @@ int getByte(int x, int n) {
 int isLessOrEqual(int x, int y) {
   // Check if most significant bit is different.
   // differentSign == 1 means that one is negative, one is positive. 
-  int differentSign = (x ^ y) >> 31;
+  int bothDifferent = (x ^ y) >> 31;
 
   // Get negative value of x.
   int negativeX = ~x + 1;
